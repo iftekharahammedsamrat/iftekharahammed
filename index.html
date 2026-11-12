@@ -1,0 +1,958 @@
+<!doctype html>
+<html lang="en-GB" class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Receptionist for UK Plumbing Firms | Iftekhar Ahammed</title>
+    <meta
+      name="description"
+      content="A UK-English AI receptionist for small plumbing and heating firms: answers calls, captures job details, explains charges and books suitable work to your rules."
+    />
+    <meta name="theme-color" content="#071A2B" />
+    <meta name="color-scheme" content="light" />
+    <link rel="canonical" href="https://iftekharahammedsamrat.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:site_name" content="Iftekhar Ahammed" />
+    <meta property="og:url" content="https://iftekharahammedsamrat.com/" />
+    <meta property="og:title" content="AI reception built around the way your plumbing firm works" />
+    <meta
+      property="og:description"
+      content="Hear a working call, see the diary result and understand the safety boundaries before you commit."
+    />
+    <meta property="og:image" content="https://iftekharahammedsamrat.com/assets/swiftpipe-short-final-poster.jpg" />
+
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="site-config.js" defer></script>
+    <script src="script.js" defer></script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "AI Voice Receptionist for UK Plumbing and Heating Firms",
+        "description": "A managed AI call-answering, job-qualification and diary-booking service configured for small UK plumbing and heating firms.",
+        "url": "https://iftekharahammedsamrat.com/",
+        "areaServed": {
+          "@type": "Country",
+          "name": "United Kingdom"
+        },
+        "provider": {
+          "@type": "Person",
+          "name": "Iftekhar Ahammed Samrat",
+          "url": "https://iftekharahammedsamrat.com/"
+        },
+        "serviceType": "AI voice receptionist configuration and support"
+      }
+    </script>
+  </head>
+
+  <body id="top">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <svg class="svg-sprite" aria-hidden="true" focusable="false">
+      <symbol id="icon-arrow" viewBox="0 0 24 24">
+        <path d="M5 12h14M13 6l6 6-6 6" />
+      </symbol>
+      <symbol id="icon-play" viewBox="0 0 24 24">
+        <path d="m9 7 8 5-8 5V7Z" />
+      </symbol>
+      <symbol id="icon-phone" viewBox="0 0 24 24">
+        <path d="M7.4 3.5 10 8 7.9 9.7a14.7 14.7 0 0 0 6.4 6.4L16 14l4.5 2.6-.7 3.5c-.2.8-.9 1.4-1.8 1.4C9.4 21.5 2.5 14.6 2.5 6c0-.9.6-1.6 1.4-1.8l3.5-.7Z" />
+      </symbol>
+      <symbol id="icon-message" viewBox="0 0 24 24">
+        <path d="M20.5 11.5a8.5 8.5 0 0 1-12.6 7.4l-4.4 1.6 1.6-4.4a8.5 8.5 0 1 1 15.4-4.6Z" />
+        <path d="M8.3 8.2c.6 2.6 2.9 4.9 5.5 5.5" />
+      </symbol>
+      <symbol id="icon-tool" viewBox="0 0 24 24">
+        <path d="M14.5 6.5a5 5 0 0 0-6.8 6.8L3 18l3 3 4.7-4.7a5 5 0 0 0 6.8-6.8l-3 3-3-3 3-3Z" />
+      </symbol>
+      <symbol id="icon-van" viewBox="0 0 24 24">
+        <path d="M3 6h11v11H3V6Zm11 4h4l3 4v3h-7v-7Z" />
+        <circle cx="7" cy="18" r="2" />
+        <circle cx="18" cy="18" r="2" />
+      </symbol>
+      <symbol id="icon-moon" viewBox="0 0 24 24">
+        <path d="M20 15.3A8.5 8.5 0 0 1 8.7 4a8.5 8.5 0 1 0 11.3 11.3Z" />
+      </symbol>
+      <symbol id="icon-map" viewBox="0 0 24 24">
+        <path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z" />
+        <circle cx="12" cy="10" r="2.5" />
+      </symbol>
+      <symbol id="icon-calendar" viewBox="0 0 24 24">
+        <path d="M4 5h16v16H4V5Zm0 5h16M8 3v4m8-4v4" />
+        <path d="m9 15 2 2 4-4" />
+      </symbol>
+      <symbol id="icon-clipboard" viewBox="0 0 24 24">
+        <path d="M8 5H5v16h14V5h-3M9 3h6v4H9V3Z" />
+        <path d="M8 12h8m-8 4h6" />
+      </symbol>
+      <symbol id="icon-shield" viewBox="0 0 24 24">
+        <path d="M12 3 4.5 6v5.5c0 4.6 3 7.8 7.5 9.5 4.5-1.7 7.5-4.9 7.5-9.5V6L12 3Z" />
+        <path d="m8.7 12 2.1 2.1 4.6-4.6" />
+      </symbol>
+      <symbol id="icon-settings" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="3" />
+        <path d="M19 13.5v-3l-2-.7a6 6 0 0 0-.6-1.4l.9-1.9-2.1-2.1-1.9.9a6 6 0 0 0-1.4-.6l-.7-2h-3l-.7 2a6 6 0 0 0-1.4.6l-1.9-.9-2.1 2.1.9 1.9a6 6 0 0 0-.6 1.4l-2 .7v3l2 .7a6 6 0 0 0 .6 1.4l-.9 1.9 2.1 2.1 1.9-.9a6 6 0 0 0 1.4.6l.7 2h3l.7-2a6 6 0 0 0 1.4-.6l1.9.9 2.1-2.1-.9-1.9a6 6 0 0 0 .6-1.4l2-.7Z" />
+      </symbol>
+      <symbol id="icon-check" viewBox="0 0 24 24">
+        <path d="m5 12 4 4L19 6" />
+      </symbol>
+      <symbol id="icon-menu" viewBox="0 0 24 24">
+        <path d="M4 7h16M4 12h16M4 17h16" />
+      </symbol>
+      <symbol id="icon-close" viewBox="0 0 24 24">
+        <path d="m6 6 12 12M18 6 6 18" />
+      </symbol>
+    </svg>
+
+    <header class="site-header" data-site-header>
+      <div class="container header-inner">
+        <a class="brand" href="#top">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 40 40">
+              <path d="M10 11v7a7 7 0 0 0 7 7h6a7 7 0 0 0 7-7v-7" />
+              <path d="M15 31h10" />
+              <circle cx="10" cy="10" r="3" />
+              <circle cx="30" cy="10" r="3" />
+            </svg>
+          </span>
+          <span class="brand-copy">
+            <strong>IFTEKHAR AHAMMED</strong>
+            <span>AI RECEPTION FOR UK PLUMBING FIRMS</span>
+          </span>
+        </a>
+
+        <nav class="desktop-nav" aria-label="Primary navigation">
+          <a href="#demo">Demo</a>
+          <a href="#how-it-works">How it works</a>
+          <a href="#control">Control &amp; safety</a>
+          <a href="#pilot">Pilot</a>
+        </nav>
+
+        <div class="header-actions">
+          <a class="button button--small button--lime header-demo" href="#demo" data-event="header_demo">
+            Hear demo
+            <svg aria-hidden="true"><use href="#icon-arrow"></use></svg>
+          </a>
+          <button
+            class="menu-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+            aria-label="Open navigation"
+            data-menu-toggle
+          >
+            <svg class="menu-icon" aria-hidden="true"><use href="#icon-menu"></use></svg>
+            <svg class="close-icon" aria-hidden="true"><use href="#icon-close"></use></svg>
+          </button>
+        </div>
+      </div>
+
+      <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation" data-mobile-menu>
+        <div class="container mobile-menu-inner">
+          <a href="#demo">Hear the demo</a>
+          <a href="#how-it-works">How it works</a>
+          <a href="#control">Control &amp; safety</a>
+          <a href="#pilot">Managed pilot</a>
+          <a
+            class="mobile-menu-whatsapp"
+            href="https://wa.me/8801572939017?text=Hi%20Iftekhar%2C%20I%20run%20a%20UK%20plumbing%20business%20and%20would%20like%20to%20hear%20the%20AI%20receptionist%20demo."
+            target="_blank"
+            rel="noopener"
+            data-whatsapp
+            data-event="mobile_menu_whatsapp"
+          >
+            Message on WhatsApp
+            <svg aria-hidden="true"><use href="#icon-message"></use></svg>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" aria-labelledby="hero-heading" data-hero>
+        <div class="hero-grid-pattern" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy" data-reveal>
+            <p class="eyebrow eyebrow--dark"><span></span> Built for UK plumbing firms</p>
+            <h1 id="hero-heading">
+              Stop losing plumbing jobs when your engineers cannot answer the phone.
+            </h1>
+            <p class="hero-lede">
+              A UK-English AI receptionist that answers calls, collects the right job details,
+              tells customers the charge before booking, and puts suitable appointments straight
+              into your diary.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button--lime" href="#demo" data-event="hero_demo">
+                <svg aria-hidden="true"><use href="#icon-play"></use></svg>
+                Hear the live-call demo
+              </a>
+              <a
+                class="button button--outline-light button--whatsapp-outline"
+                href="https://wa.me/8801572939017?text=Hi%20Iftekhar%2C%20I%20run%20a%20UK%20plumbing%20business%20and%20would%20like%20to%20hear%20the%20AI%20receptionist%20demo."
+                target="_blank"
+                rel="noopener"
+                data-whatsapp
+                data-event="hero_whatsapp"
+              >
+                <svg aria-hidden="true"><use href="#icon-message"></use></svg>
+                Message on WhatsApp
+              </a>
+            </div>
+
+            <div class="hero-proof-line">
+              <span class="proof-tick" aria-hidden="true">
+                <svg><use href="#icon-check"></use></svg>
+              </span>
+              <p>Built for small UK plumbing and heating firms—not generic call-centre software.</p>
+            </div>
+          </div>
+
+          <div class="hero-product" data-reveal data-reveal-delay="1">
+            <div class="proof-stage" aria-label="Working call flow showing a caller, AI response and confirmed diary booking">
+              <div class="stage-glow" aria-hidden="true"></div>
+
+              <article class="call-card">
+                <header class="card-toolbar">
+                  <div>
+                    <span class="live-dot" aria-hidden="true"></span>
+                    <span class="toolbar-label">Call in progress</span>
+                  </div>
+                  <span class="uk-chip">UK English</span>
+                </header>
+
+                <div class="caller-row">
+                  <span class="caller-avatar" aria-hidden="true">
+                    <svg><use href="#icon-phone"></use></svg>
+                  </span>
+                  <div>
+                    <span class="caller-label">Incoming call</span>
+                    <strong>Boiler breakdown</strong>
+                  </div>
+                  <span class="connected-chip">Connected</span>
+                </div>
+
+                <div class="waveform" aria-hidden="true">
+                  <span style="--bar: 28%; --delay: 0s"></span>
+                  <span style="--bar: 58%; --delay: -0.2s"></span>
+                  <span style="--bar: 84%; --delay: -0.45s"></span>
+                  <span style="--bar: 42%; --delay: -0.1s"></span>
+                  <span style="--bar: 70%; --delay: -0.35s"></span>
+                  <span style="--bar: 96%; --delay: -0.55s"></span>
+                  <span style="--bar: 50%; --delay: -0.22s"></span>
+                  <span style="--bar: 76%; --delay: -0.42s"></span>
+                  <span style="--bar: 36%; --delay: -0.12s"></span>
+                  <span style="--bar: 64%; --delay: -0.3s"></span>
+                  <span style="--bar: 88%; --delay: -0.5s"></span>
+                  <span style="--bar: 46%; --delay: -0.18s"></span>
+                  <span style="--bar: 72%; --delay: -0.38s"></span>
+                  <span style="--bar: 32%; --delay: -0.08s"></span>
+                </div>
+
+                <div class="mini-transcript">
+                  <p class="speech speech--caller">
+                    <span>Caller</span>
+                    My Worcester boiler has stopped—no heating or hot water.
+                  </p>
+                  <p class="speech speech--agent">
+                    <span>Alex · receptionist</span>
+                    What is the postcode for the property?
+                  </p>
+                </div>
+              </article>
+
+              <div class="flow-connector" aria-hidden="true">
+                <span></span><span></span><span></span>
+              </div>
+
+              <article class="booking-card">
+                <div class="booking-head">
+                  <span class="calendar-icon" aria-hidden="true">
+                    <svg><use href="#icon-calendar"></use></svg>
+                  </span>
+                  <div>
+                    <span>Google Calendar</span>
+                    <strong>Job confirmed</strong>
+                  </div>
+                  <span class="captured-chip">Captured</span>
+                </div>
+                <div class="booking-body">
+                  <div>
+                    <span>Job</span>
+                    <strong>Boiler breakdown</strong>
+                  </div>
+                  <div class="booking-split">
+                    <p><span>Window</span><strong>08:00–11:00</strong></p>
+                    <p><span>Charge</span><strong>£65 incl. VAT</strong></p>
+                  </div>
+                  <div class="booking-location">
+                    <svg aria-hidden="true"><use href="#icon-map"></use></svg>
+                    Service postcode captured
+                  </div>
+                </div>
+              </article>
+
+              <div class="safety-chip">
+                <svg aria-hidden="true"><use href="#icon-shield"></use></svg>
+                Gas trigger: do not book
+              </div>
+
+              <p class="stage-caption">
+                <span>Working demo flow</span>
+                SwiftPipe is a fictional plumbing firm
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container hero-trust" aria-label="Product capabilities">
+          <ul>
+            <li><svg aria-hidden="true"><use href="#icon-phone"></use></svg> UK-English voice</li>
+            <li><svg aria-hidden="true"><use href="#icon-calendar"></use></svg> Calendar booking</li>
+            <li><svg aria-hidden="true"><use href="#icon-clipboard"></use></svg> Customer record captured</li>
+            <li><svg aria-hidden="true"><use href="#icon-shield"></use></svg> Configured safety rules</li>
+            <li><span class="trust-live" aria-hidden="true"></span> Working demo available</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section problem-section" id="problem" aria-labelledby="problem-heading">
+        <div class="container">
+          <div class="section-heading section-heading--wide" data-reveal>
+            <p class="eyebrow">The job-site reality</p>
+            <h2 id="problem-heading">You cannot hold a wrench and answer every incoming call.</h2>
+            <p>
+              The problem is not effort. One person cannot safely work on a boiler, drive between
+              appointments and give every caller a proper first conversation at the same time.
+            </p>
+          </div>
+
+          <div class="problem-grid">
+            <article class="scenario-card" data-reveal>
+              <span class="icon-box" aria-hidden="true"><svg><use href="#icon-tool"></use></svg></span>
+              <span class="scenario-number">01</span>
+              <h3>On a job</h3>
+              <p>You are under a sink or talking to a customer. The phone rings, then voicemail takes over.</p>
+            </article>
+            <article class="scenario-card" data-reveal data-reveal-delay="1">
+              <span class="icon-box" aria-hidden="true"><svg><use href="#icon-van"></use></svg></span>
+              <span class="scenario-number">02</span>
+              <h3>Between jobs</h3>
+              <p>You should not answer while driving. By the time you call back, the job may be elsewhere.</p>
+            </article>
+            <article class="scenario-card" data-reveal data-reveal-delay="2">
+              <span class="icon-box" aria-hidden="true"><svg><use href="#icon-moon"></use></svg></span>
+              <span class="scenario-number">03</span>
+              <h3>After hours</h3>
+              <p>A genuine caller needs an answer, but you also need a working day that actually ends.</p>
+            </article>
+          </div>
+
+          <aside class="evidence-panel" aria-label="Trade survey context" data-reveal>
+            <div class="evidence-intro">
+              <p class="eyebrow eyebrow--dark">Trade survey context</p>
+              <p>
+                In a 2022 Fix Radio survey reported by PHAM News, more than 220 tradespeople described
+                the same practical problem.
+              </p>
+            </div>
+            <div class="evidence-stat">
+              <strong>60%</strong>
+              <span>said they struggled to answer the phone while working</span>
+            </div>
+            <div class="evidence-stat">
+              <strong>34%</strong>
+              <span>believed they had lost work because they could not answer</span>
+            </div>
+            <p class="evidence-note">
+              Context, not a universal benchmark.
+              <a href="https://phamnews.co.uk/missed-calls-causing-lost-business-opportunities/" target="_blank" rel="noopener">
+                Read the reported survey<span class="visually-hidden"> (opens in a new tab)</span>
+              </a>.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section demo-section" id="demo" aria-labelledby="demo-heading">
+        <div class="container demo-layout">
+          <figure class="video-column" data-reveal>
+            <div class="video-shell">
+              <div class="video-label">
+                <span class="live-dot" aria-hidden="true"></span>
+                Working demo · fictional firm
+              </div>
+              <video
+                id="demo-video"
+                controls
+                playsinline
+                preload="metadata"
+                poster="assets/swiftpipe-short-final-poster.jpg"
+                aria-describedby="demo-video-description"
+              >
+                <source src="assets/swiftpipe-short-final.mp4" type="video/mp4" />
+                Your browser does not support embedded video. The key moments are described beside the video.
+              </video>
+              <button class="video-play" type="button" data-play-demo data-event="demo_play">
+                <span class="video-play-action">
+                  <span class="video-play-icon" aria-hidden="true"><svg><use href="#icon-play"></use></svg></span>
+                  <strong>Hear the demo</strong>
+                </span>
+              </button>
+            </div>
+            <figcaption>
+              SwiftPipe Plumbing &amp; Heating is a fictional company. Click anywhere on the poster to start, then use the player timeline to jump to any part.
+            </figcaption>
+          </figure>
+
+          <div class="demo-copy" data-reveal data-reveal-delay="1">
+            <p class="eyebrow">Hear it before you trust it</p>
+            <h2 id="demo-heading">Listen for the rules—not just the voice.</h2>
+            <p class="section-lede" id="demo-video-description">
+              The useful part is the full chain: the caller explains the job, the receptionist asks for
+              the missing details, states the charge, confirms a suitable slot and writes the result down.
+            </p>
+
+            <ol class="demo-moments">
+              <li>
+                <span>01</span>
+                <div><strong>It asks, not guesses</strong><p>Problem, postcode and caller details are captured before the next step.</p></div>
+              </li>
+              <li>
+                <span>02</span>
+                <div><strong>It states the charge first</strong><p>The demo caller hears the £65 including VAT rule before agreeing to book.</p></div>
+              </li>
+              <li>
+                <span>03</span>
+                <div><strong>The result reaches the system</strong><p>The appointment and customer record are created from the confirmed call.</p></div>
+              </li>
+              <li>
+                <span>04</span>
+                <div><strong>It knows when to stop</strong><p>A gas-safety trigger leaves the normal booking route and follows a hard rule.</p></div>
+              </li>
+            </ol>
+
+            <details class="demo-summary">
+              <summary>Read the short transcript and safety note</summary>
+              <div>
+                <p><strong>Suitable job:</strong> “My Worcester boiler has stopped—no heating or hot water.” The receptionist asks for the service postcode, explains the £65 call-out charge including VAT and only books after the caller agrees.</p>
+                <p><strong>Safety route:</strong> “I think I can smell gas in my kitchen.” The configured demo stops normal booking and directs the caller to the emergency route instead.</p>
+                <p class="safety-note"><strong>Important:</strong> This demonstrates a configured call rule. It is not a replacement for professional or official emergency guidance.</p>
+              </div>
+            </details>
+          </div>
+        </div>
+
+        <div class="container integration-panel" data-reveal>
+          <div class="integration-intro">
+            <p class="eyebrow">Visible connections</p>
+            <h3>One call, handed through to the tools doing the work.</h3>
+            <p>Each connection has a practical job. The exact stack is configured around the firm.</p>
+          </div>
+          <ul class="integration-list" aria-label="Demo workflow technology">
+            <li><strong>Retell AI</strong><span>UK-English conversation</span></li>
+            <li><strong>Twilio</strong><span>Phone connection</span></li>
+            <li><strong>Google Calendar</strong><span>Appointment diary</span></li>
+            <li><strong>Airtable</strong><span>Customer record</span></li>
+            <li><strong>n8n</strong><span>Workflow hand-off</span></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section capabilities-section" id="how-it-works" aria-labelledby="capabilities-heading">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow">What it actually does</p>
+            <h2 id="capabilities-heading">A practical first conversation, handled to your rules.</h2>
+            <p>No “AI transformation” speech. Just the parts of an incoming plumbing call that need to happen reliably.</p>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card" data-reveal>
+              <span class="feature-icon" aria-hidden="true"><svg><use href="#icon-phone"></use></svg></span>
+              <span class="feature-step">01</span>
+              <h3>Answers the call</h3>
+              <p>A UK-English greeting covers the call when the engineer cannot safely pick up.</p>
+            </article>
+            <article class="feature-card" data-reveal data-reveal-delay="1">
+              <span class="feature-icon" aria-hidden="true"><svg><use href="#icon-clipboard"></use></svg></span>
+              <span class="feature-step">02</span>
+              <h3>Captures the job</h3>
+              <p>Service, postcode, problem details and caller information are gathered in one flow.</p>
+            </article>
+            <article class="feature-card" data-reveal data-reveal-delay="2">
+              <span class="feature-icon" aria-hidden="true"><svg><use href="#icon-calendar"></use></svg></span>
+              <span class="feature-step">03</span>
+              <h3>Books the right slot</h3>
+              <p>Availability, price, service area and booking windows are checked before confirmation.</p>
+            </article>
+            <article class="feature-card" data-reveal data-reveal-delay="3">
+              <span class="feature-icon feature-icon--safety" aria-hidden="true"><svg><use href="#icon-shield"></use></svg></span>
+              <span class="feature-step">04</span>
+              <h3>Knows when not to book</h3>
+              <p>Safety triggers and unsuitable work follow a defined route instead of forcing a sale.</p>
+            </article>
+          </div>
+
+          <div class="workflow-panel" data-reveal>
+            <div class="workflow-head">
+              <p class="eyebrow">The normal route</p>
+              <h3>From ring to diary—without skipping the decision points.</h3>
+            </div>
+            <ol class="workflow-steps">
+              <li><span>1</span><strong>Call comes in</strong><small>Your greeting answers</small></li>
+              <li><span>2</span><strong>Job is qualified</strong><small>Details and area checked</small></li>
+              <li><span>3</span><strong>Customer agrees</strong><small>Charge stated first</small></li>
+              <li><span>4</span><strong>Job reaches diary</strong><small>Record captured</small></li>
+            </ol>
+            <div class="workflow-branch">
+              <span class="branch-line" aria-hidden="true"></span>
+              <div class="branch-card">
+                <span class="branch-icon" aria-hidden="true">!</span>
+                <p><strong>Safety or rule trigger</strong><span>Leave the normal route</span></p>
+                <b>Do not book</b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section safety-section" id="control" aria-labelledby="safety-heading">
+        <div class="container safety-grid">
+          <div class="safety-copy" data-reveal>
+            <p class="eyebrow">Boundaries create trust</p>
+            <h2 id="safety-heading">A good receptionist does not turn every call into a booking.</h2>
+            <p class="section-lede">
+              Plumbing and heating calls are not all equal. The system needs firm limits for safety,
+              suitability, pricing and capacity—and a clear route when it does not know.
+            </p>
+
+            <ul class="boundary-list">
+              <li><svg aria-hidden="true"><use href="#icon-check"></use></svg><span><strong>Only configured services</strong> can enter the booking flow.</span></li>
+              <li><svg aria-hidden="true"><use href="#icon-check"></use></svg><span><strong>Charges are disclosed</strong> before the appointment is accepted.</span></li>
+              <li><svg aria-hidden="true"><use href="#icon-check"></use></svg><span><strong>Safety triggers interrupt</strong> the ordinary sales and booking route.</span></li>
+              <li><svg aria-hidden="true"><use href="#icon-check"></use></svg><span><strong>Unknown requests are captured</strong> or escalated—not answered with an invention.</span></li>
+            </ul>
+
+            <p class="inline-disclaimer">
+              The gas example is configured demo behaviour. It does not replace official emergency guidance or a qualified professional.
+            </p>
+          </div>
+
+          <article class="rules-console" data-reveal data-reveal-delay="1" aria-label="Example receptionist rules for the fictional demo firm">
+            <header class="console-header">
+              <div>
+                <span class="console-kicker">Demo rule board</span>
+                <strong>SwiftPipe · fictional firm</strong>
+              </div>
+              <span class="console-status"><i aria-hidden="true"></i> Rules active</span>
+            </header>
+            <div class="console-body">
+              <div class="rule-row">
+                <span class="rule-symbol rule-symbol--teal" aria-hidden="true"><svg><use href="#icon-tool"></use></svg></span>
+                <p><strong>Boiler breakdown</strong><span>Area, availability and price must match</span></p>
+                <b class="rule-result rule-result--book">Can book</b>
+              </div>
+              <div class="rule-row">
+                <span class="rule-symbol rule-symbol--amber" aria-hidden="true">£</span>
+                <p><strong>£65 including VAT</strong><span>Say the call-out charge before booking</span></p>
+                <b class="rule-result rule-result--tell">Tell first</b>
+              </div>
+              <div class="rule-row">
+                <span class="rule-symbol rule-symbol--danger" aria-hidden="true">!</span>
+                <p><strong>Caller reports a gas smell</strong><span>Stop the normal appointment flow</span></p>
+                <b class="rule-result rule-result--stop">Do not book</b>
+              </div>
+              <div class="rule-row">
+                <span class="rule-symbol" aria-hidden="true">?</span>
+                <p><strong>Request is outside the rules</strong><span>Capture the message without guessing</span></p>
+                <b class="rule-result">Escalate</b>
+              </div>
+            </div>
+            <footer class="console-footer">
+              <svg aria-hidden="true"><use href="#icon-settings"></use></svg>
+              Example rules are reviewed with the owner before launch.
+            </footer>
+          </article>
+        </div>
+      </section>
+
+      <section class="section control-section" aria-labelledby="control-heading">
+        <div class="container control-layout">
+          <div class="control-copy" data-reveal>
+            <p class="eyebrow eyebrow--dark">The owner stays in control</p>
+            <h2 id="control-heading">Your number. Your rules. Your diary.</h2>
+            <p>
+              The receptionist is configured around how your firm actually operates. You hear it,
+              challenge it with real scenarios and approve the rules before customer calls are connected.
+            </p>
+            <a
+              class="text-link text-link--light"
+              href="https://wa.me/8801572939017?text=Hi%20Iftekhar%2C%20I%20run%20a%20UK%20plumbing%20business%20and%20would%20like%20to%20hear%20the%20AI%20receptionist%20demo."
+              target="_blank"
+              rel="noopener"
+              data-whatsapp
+              data-event="control_whatsapp"
+            >
+              Ask about your call rules
+              <svg aria-hidden="true"><use href="#icon-arrow"></use></svg>
+            </a>
+          </div>
+
+          <div class="control-grid" data-reveal data-reveal-delay="1">
+            <article><span>01</span><div><strong>Services</strong><p>What can be booked—and what cannot.</p></div></article>
+            <article><span>02</span><div><strong>Service areas</strong><p>The postcodes and travel limits you accept.</p></div></article>
+            <article><span>03</span><div><strong>Prices</strong><p>The exact charge wording callers hear.</p></div></article>
+            <article><span>04</span><div><strong>Booking windows</strong><p>Slots, notice periods and engineer availability.</p></div></article>
+            <article><span>05</span><div><strong>Capacity</strong><p>Protect the diary instead of filling it blindly.</p></div></article>
+            <article><span>06</span><div><strong>Escalation</strong><p>What happens when a call falls outside the rules.</p></div></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section implementation-section" aria-labelledby="implementation-heading">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow">From your process to a working line</p>
+            <h2 id="implementation-heading">You explain the firm. The setup work is handled with you.</h2>
+            <p>The aim is not to hand you another complicated dashboard. It is to configure, test and connect a call flow you understand.</p>
+          </div>
+
+          <ol class="implementation-steps">
+            <li data-reveal>
+              <span>01</span>
+              <div><strong>Tell me how the firm works</strong><p>Services, areas, charges, diary windows and calls you do not want.</p></div>
+            </li>
+            <li data-reveal data-reveal-delay="1">
+              <span>02</span>
+              <div><strong>I configure the call flow</strong><p>Greeting, questions, boundaries and the information your engineers need.</p></div>
+            </li>
+            <li data-reveal data-reveal-delay="2">
+              <span>03</span>
+              <div><strong>You test real scenarios</strong><p>Good jobs, difficult callers, edge cases and safety triggers.</p></div>
+            </li>
+            <li data-reveal data-reveal-delay="3">
+              <span>04</span>
+              <div><strong>We connect the diary</strong><p>Confirmed work and customer details go where your team can use them.</p></div>
+            </li>
+            <li data-reveal data-reveal-delay="4">
+              <span>05</span>
+              <div><strong>Launch, review, refine</strong><p>Real calls reveal what needs tightening; rules are adjusted deliberately.</p></div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section pilot-section" id="pilot" aria-labelledby="pilot-heading">
+        <div class="container">
+          <div class="section-heading section-heading--wide" data-reveal>
+            <p class="eyebrow">Straightforward commercial structure</p>
+            <h2 id="pilot-heading">One managed pilot. No mystery three-tier table.</h2>
+            <p>
+              Call volume and workflow complexity change the real cost. Rather than publish a cheap headline
+              and reveal limits later, the allowance, setup and extra-usage rate are agreed before launch.
+            </p>
+          </div>
+
+          <div class="pilot-grid">
+            <article class="pilot-card" data-reveal>
+              <div class="pilot-card-head">
+                <div>
+                  <span class="pilot-label">For small UK plumbing firms</span>
+                  <h3>Managed pilot</h3>
+                </div>
+                <span class="pilot-chip">One plan</span>
+              </div>
+
+              <div class="price-state">
+                <span>Monthly fee</span>
+                <strong>Confirmed after a short call-volume review</strong>
+                <p>No invented “from” price and no surprise allowance hidden in small print.</p>
+              </div>
+
+              <ul class="pilot-inclusions">
+                <li><svg aria-hidden="true"><use href="#icon-check"></use></svg> Call logic configured around your firm</li>
+                <li><svg aria-hidden="true"><use href="#icon-check"></use></svg> UK-English voice and scenario testing</li>
+                <li><svg aria-hidden="true"><use href="#icon-check"></use></svg> Calendar booking and customer record workflow</li>
+                <li><svg aria-hidden="true"><use href="#icon-check"></use></svg> Launch review and agreed rule changes</li>
+              </ul>
+
+              <div class="commercial-clarity">
+                <p><span>Included usage</span><strong>Written into the pilot offer</strong></p>
+                <p><span>Setup</span><strong>Confirmed before work starts</strong></p>
+                <p><span>Extra usage</span><strong>Rate agreed up front</strong></p>
+                <p><span>Support &amp; changes</span><strong>Scope agreed before launch</strong></p>
+                <p><span>Out-of-scope work</span><strong>Quoted before it starts</strong></p>
+                <p><span>Contract</span><strong>No long contract during the pilot</strong></p>
+              </div>
+
+              <a
+                class="button button--lime button--full"
+                href="https://wa.me/8801572939017?text=Hi%20Iftekhar%2C%20I%20run%20a%20UK%20plumbing%20business%20and%20would%20like%20to%20discuss%20the%20managed%20AI%20receptionist%20pilot."
+                target="_blank"
+                rel="noopener"
+                data-whatsapp
+                data-whatsapp-message="Hi Iftekhar, I run a UK plumbing business and would like to discuss the managed AI receptionist pilot."
+                data-event="pilot_whatsapp"
+              >
+                Ask about the managed pilot
+                <svg aria-hidden="true"><use href="#icon-arrow"></use></svg>
+              </a>
+            </article>
+
+            <div class="value-column" data-reveal data-reveal-delay="1">
+              <article class="value-card">
+                <span class="value-label">A sensible value check</span>
+                <h3>How many suitable jobs would cover the service?</h3>
+                <div class="equation" aria-label="Monthly service cost divided by average gross profit from one suitable job equals jobs needed to cover the service">
+                  <span>Monthly<br />service cost</span>
+                  <b aria-hidden="true">÷</b>
+                  <span>Average gross profit<br />from one suitable job</span>
+                  <b aria-hidden="true">=</b>
+                  <span>Jobs needed to<br />cover the service</span>
+                </div>
+                <p>This is a comparison method—not a revenue promise or guaranteed return.</p>
+              </article>
+
+              <article class="not-selling-card">
+                <p class="eyebrow">What this is not</p>
+                <ul>
+                  <li><span aria-hidden="true">×</span> A promise to fill every slot</li>
+                  <li><span aria-hidden="true">×</span> An “unlimited” plan with hidden fair-use rules</li>
+                  <li><span aria-hidden="true">×</span> A replacement for your judgement or qualified advice</li>
+                </ul>
+                <p>The goal is to protect suitable work and remove repetitive phone administration—not create bookings you do not want.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section faq-section" aria-labelledby="faq-heading">
+        <div class="container faq-layout">
+          <div class="faq-intro" data-reveal>
+            <p class="eyebrow">Practical questions</p>
+            <h2 id="faq-heading">The concerns you should raise before trusting it.</h2>
+            <p>A clear boundary is more useful than a vague promise that the AI can handle everything.</p>
+            <a class="text-link" href="#demo">Hear the working demo <svg aria-hidden="true"><use href="#icon-arrow"></use></svg></a>
+          </div>
+
+          <div class="faq-list" data-reveal data-reveal-delay="1">
+            <details>
+              <summary>“My customers want to speak to me.”</summary>
+              <p>The receptionist handles the first conversation and sends you the right details. You decide how your firm follows up and which calls should still reach a person.</p>
+            </details>
+            <details>
+              <summary>“What if it sounds robotic?”</summary>
+              <p>Do not take a copywriter’s word for it. Hear the UK-English demo, then test the configured version with the phrases and scenarios your customers actually use.</p>
+            </details>
+            <details>
+              <summary>“What if it books the wrong thing?”</summary>
+              <p>Services, prices, postcode areas, availability and booking windows are explicit rules. The system is not instructed to turn every call into an appointment.</p>
+            </details>
+            <details>
+              <summary>“What happens on a gas-emergency call?”</summary>
+              <p>A configured safety trigger stops the normal booking route and follows the agreed emergency flow. The demo proves the boundary; it does not replace official emergency guidance.</p>
+            </details>
+            <details>
+              <summary>“I am already busy enough.”</summary>
+              <p>The goal is not to fill the diary indiscriminately. It is to protect suitable calls, qualify them properly and reduce the repetitive administration around work you already receive.</p>
+            </details>
+            <details>
+              <summary>“I already use WhatsApp.”</summary>
+              <p>Keep WhatsApp for photos, updates and follow-up. The receptionist covers the incoming calls you cannot answer and sends the useful details into the agreed workflow.</p>
+            </details>
+            <details>
+              <summary>“I do not want another system to manage.”</summary>
+              <p>The service is configured with you, connected to the agreed diary and tested before launch. The management process and support boundaries are written into the pilot.</p>
+            </details>
+            <details>
+              <summary>“Why should I trust a new provider?”</summary>
+              <p>Start with evidence, not a promise: a real founder, a working fictional-company demo, visible process, documented limits and no invented testimonials or client results.</p>
+            </details>
+            <details>
+              <summary>“How do I judge whether it costs too much?”</summary>
+              <p>Compare the transparent monthly cost with your own gross profit from one suitable job and the phone administration it removes. That is a value check—not a guaranteed return.</p>
+            </details>
+            <details>
+              <summary>“Why is there no cheap headline price?”</summary>
+              <p>A fair price depends on call volume, included usage, setup and support. Those numbers should be explicit—not hidden behind a low entry price that does not cover the workflow shown here.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section founder-section" aria-labelledby="founder-heading">
+        <div class="container founder-grid">
+          <figure class="founder-portrait" data-reveal>
+            <div class="portrait-frame">
+              <img
+                src="assets/iftekhar-founder.jpg"
+                alt="Portrait of Iftekhar Ahammed"
+                width="1080"
+                height="1440"
+                loading="lazy"
+              />
+              <span class="portrait-badge"><i aria-hidden="true"></i> Direct contact</span>
+            </div>
+            <figcaption>Real founder. No stock headshot or invented client quote.</figcaption>
+          </figure>
+
+          <div class="founder-copy" data-reveal data-reveal-delay="1">
+            <p class="eyebrow">The person behind the build</p>
+            <h2 id="founder-heading">Built and supported by a real person.</h2>
+            <p class="founder-intro">
+              I’m <strong>Iftekhar Ahammed</strong>. I build the call logic, booking workflow and
+              customer-record hand-off around the way each firm operates. You hear the agent and test
+              real scenarios before anything is connected to customers.
+            </p>
+
+            <div class="founder-promises">
+              <p><svg aria-hidden="true"><use href="#icon-message"></use></svg><span><strong>Direct conversation</strong>No sales maze before you can ask a practical question.</span></p>
+              <p><svg aria-hidden="true"><use href="#icon-settings"></use></svg><span><strong>Your rules reviewed</strong>The workflow is tested against the calls your firm receives.</span></p>
+              <p><svg aria-hidden="true"><use href="#icon-shield"></use></svg><span><strong>Limits explained</strong>Unknowns, safety triggers and data handling are discussed before launch.</span></p>
+            </div>
+
+            <div class="founder-contact">
+              <a
+                class="button button--whatsapp"
+                href="https://wa.me/8801572939017?text=Hi%20Iftekhar%2C%20I%20run%20a%20UK%20plumbing%20business%20and%20would%20like%20to%20hear%20the%20AI%20receptionist%20demo."
+                target="_blank"
+                rel="noopener"
+                data-whatsapp
+                data-event="founder_whatsapp"
+              >
+                <svg aria-hidden="true"><use href="#icon-message"></use></svg>
+                Message Iftekhar on WhatsApp
+              </a>
+              <p>UK business enquiries welcome. The link opens a transparent <strong>+880 Bangladesh number</strong>.</p>
+              <p data-email-row>Prefer email? <a href="mailto:iftekharahammedsamrat2@gmail.com" data-email-link data-email-popup data-event="founder_email" aria-haspopup="dialog" aria-controls="email-modal">iftekharahammedsamrat2@gmail.com</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="final-cta" aria-labelledby="final-cta-heading">
+        <div class="final-cta-grid" aria-hidden="true"></div>
+        <div class="container final-cta-inner" data-reveal>
+          <div>
+            <p class="eyebrow eyebrow--dark">A low-risk first step</p>
+            <h2 id="final-cta-heading">Want to hear it answer as your firm?</h2>
+            <p>Send your trade, service area and one call scenario. You will not be asked to fill in a long form first.</p>
+          </div>
+          <div class="final-cta-actions">
+            <a
+              class="button button--lime"
+              href="https://wa.me/8801572939017?text=Hi%20Iftekhar%2C%20I%20run%20a%20UK%20plumbing%20business%20and%20would%20like%20to%20hear%20the%20AI%20receptionist%20demo."
+              target="_blank"
+              rel="noopener"
+              data-whatsapp
+              data-event="final_whatsapp"
+            >
+              Message me on WhatsApp
+              <svg aria-hidden="true"><use href="#icon-arrow"></use></svg>
+            </a>
+            <a class="button button--outline-light" href="#demo" data-event="final_demo">
+              <svg aria-hidden="true"><use href="#icon-play"></use></svg>
+              Replay the demo
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-top">
+        <a class="brand brand--footer" href="#top">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 40 40">
+              <path d="M10 11v7a7 7 0 0 0 7 7h6a7 7 0 0 0 7-7v-7" />
+              <path d="M15 31h10" />
+              <circle cx="10" cy="10" r="3" />
+              <circle cx="30" cy="10" r="3" />
+            </svg>
+          </span>
+          <span class="brand-copy"><strong>IFTEKHAR AHAMMED</strong><span>AI RECEPTION FOR UK PLUMBING FIRMS</span></span>
+        </a>
+        <p>Call answering and booking workflows configured by Iftekhar Ahammed for small UK plumbing and heating firms.</p>
+        <nav aria-label="Footer navigation">
+          <a href="#demo">Demo</a>
+          <a href="#pilot">Pilot</a>
+          <a href="mailto:iftekharahammedsamrat2@gmail.com" data-email-popup data-event="footer_email" aria-haspopup="dialog" aria-controls="email-modal">Email</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="terms.html">Terms</a>
+        </nav>
+      </div>
+      <div class="container footer-bottom">
+        <p>&copy; <span data-current-year>2026</span> Iftekhar Ahammed Samrat.</p>
+        <p>SwiftPipe is a fictional demo company. No client results or testimonials are implied.</p>
+      </div>
+    </footer>
+
+    <div class="email-modal" id="email-modal" data-email-modal hidden>
+      <div class="email-modal-backdrop" data-email-close aria-hidden="true"></div>
+      <section
+        class="email-dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="email-dialog-title"
+        aria-describedby="email-dialog-description"
+        tabindex="-1"
+        data-email-dialog
+      >
+        <button class="email-dialog-close" type="button" data-email-close aria-label="Close email popup">
+          <svg aria-hidden="true"><use href="#icon-close"></use></svg>
+        </button>
+
+        <span class="email-dialog-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24">
+            <path d="M3.5 6.5h17v12h-17v-12Z" />
+            <path d="m4 7 8 6 8-6" />
+          </svg>
+        </span>
+        <p class="eyebrow">Email Iftekhar</p>
+        <h2 id="email-dialog-title">Copy the email address</h2>
+        <p id="email-dialog-description">Use the copy button, or open your default email application.</p>
+
+        <div class="email-copy-box">
+          <span data-email-value>iftekharahammedsamrat2@gmail.com</span>
+          <button class="email-copy-button" type="button" data-copy-email data-event="email_copy">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <rect x="8" y="8" width="11" height="11" rx="2" />
+              <path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2" />
+            </svg>
+            <span data-copy-label>Copy email</span>
+          </button>
+        </div>
+
+        <p class="email-copy-status" aria-live="polite" data-copy-status></p>
+        <a class="button button--teal button--full" href="mailto:iftekharahammedsamrat2@gmail.com" data-email-mailto data-event="email_app">
+          Open email app
+          <svg aria-hidden="true"><use href="#icon-arrow"></use></svg>
+        </a>
+      </section>
+    </div>
+
+    <nav class="mobile-sticky" aria-label="Quick actions" data-mobile-sticky>
+      <a href="#demo" data-event="sticky_demo">
+        <svg aria-hidden="true"><use href="#icon-play"></use></svg>
+        Hear demo
+      </a>
+      <a
+        class="mobile-sticky-whatsapp"
+        href="https://wa.me/8801572939017?text=Hi%20Iftekhar%2C%20I%20run%20a%20UK%20plumbing%20business%20and%20would%20like%20to%20hear%20the%20AI%20receptionist%20demo."
+        target="_blank"
+        rel="noopener"
+        data-whatsapp
+        data-event="sticky_whatsapp"
+      >
+        <svg aria-hidden="true"><use href="#icon-message"></use></svg>
+        WhatsApp
+      </a>
+    </nav>
+  </body>
+</html>
