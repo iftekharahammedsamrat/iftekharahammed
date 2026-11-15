@@ -192,7 +192,7 @@
   });
 
   async function writeEmailToClipboard() {
-    const email = config.email || "iftekharahammedsamrat2@gmail.com";
+    const email = config.email || "iftekhar@iftekharahammedsamrat.com";
 
     if (navigator.clipboard && window.isSecureContext) {
       try {
