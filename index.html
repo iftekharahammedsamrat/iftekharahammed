@@ -23,6 +23,8 @@
     <meta property="og:image" content="https://iftekharahammedsamrat.com/assets/swiftpipe-short-final-poster.jpg" />
 
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="styles.css" as="style" />
+    <link rel="preload" href="assets/fonts/manrope-800.ttf" as="font" type="font/ttf" crossorigin />
     <link rel="stylesheet" href="styles.css" />
     <script src="site-config.js" defer></script>
     <script src="script.js" defer></script>
@@ -390,8 +392,9 @@
                 id="demo-video"
                 controls
                 playsinline
-                preload="metadata"
+                preload="none"
                 poster="assets/swiftpipe-short-final-poster.jpg"
+                loading="lazy"
                 aria-describedby="demo-video-description"
               >
                 <source src="assets/swiftpipe-short-final.mp4" type="video/mp4" />
@@ -831,6 +834,16 @@
               </a>
               <p>UK business enquiries welcome. The link opens a transparent <strong>+880 Bangladesh number</strong>.</p>
               <p data-email-row>Prefer email? <a href="mailto:iftekhar@iftekharahammedsamrat.com" data-email-link data-email-popup data-event="founder_email" aria-haspopup="dialog" aria-controls="email-modal">iftekhar@iftekharahammedsamrat.com</a></p>
+              <p class="founder-social">
+                <a href="https://www.linkedin.com/in/iftekharahammedsamrat/" target="_blank" rel="noopener" data-event="founder_linkedin">
+                  <svg aria-hidden="true" viewBox="0 0 24 24">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6Z" />
+                    <rect x="2" y="9" width="4" height="12" />
+                    <circle cx="4" cy="4" r="2" />
+                  </svg>
+                  LinkedIn profile
+                </a>
+              </p>
             </div>
           </div>
         </div>

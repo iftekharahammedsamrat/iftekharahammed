@@ -23,10 +23,15 @@ No HTML, CSS, JavaScript, page structure or copy was taken from the earlier webs
 - `styles.css` — responsive visual system and legal-page styles
 - `script.js` — navigation, demo player, mobile actions, optional contact configuration and event hooks
 - `site-config.js` — public WhatsApp/email settings
-- `privacy.html` — website and pre-deployment data boundaries
+- `privacy.html` — website, outreach and service data boundaries
 - `terms.html` — honest demo, safety, pricing and performance limits
 - `favicon.svg` — local brand mark
 - `assets/` — founder portrait, demo video, poster and local Manrope font files
+- LinkedIn profile link in founder section
+- Only 2 font weights are used (500 and 800) to reduce font payload
+- Video is compressed to 720p (4.3MB) with faststart for streaming
+- Poster image is optimized (36KB)
+- `preload="none"` on video to prevent unnecessary downloads
 
 Current demo source copied into the site:
 
@@ -54,7 +59,7 @@ The included server supports video byte-range requests, so the demo can seek imm
 
 Edit `site-config.js` to change the WhatsApp number, default message or confirmed public email address.
 
-The confirmed fallback email is `iftekharahammedsamrat2@gmail.com`.
+The confirmed fallback email is `iftekhar@iftekharahammedsamrat.com`.
 
 ## Deliberate trust decisions
 
@@ -77,7 +82,7 @@ The following details were not supplied by the research and should be confirmed 
 4. Included calls/minutes and exact extra-usage rate.
 5. Pilot cancellation, support and change policy.
 6. Whether a live test phone number will be published.
-7. Production hosting provider and its log-retention settings.
+7. Vercel log-retention settings, if a more specific public statement is required.
 8. Client-specific call recording, processors, storage regions, access and retention schedule.
 9. Privacy-compliant analytics and consent setup if conversion measurement is added.
 

@@ -1,11 +1,4 @@
-@font-face {
-  font-family: "Manrope";
-  src: url("assets/fonts/manrope-400.ttf") format("truetype");
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-}
-
+/* Font weight 400 consolidated into 500 for performance */
 @font-face {
   font-family: "Manrope";
   src: url("assets/fonts/manrope-500.ttf") format("truetype");
@@ -14,21 +7,8 @@
   font-display: swap;
 }
 
-@font-face {
-  font-family: "Manrope";
-  src: url("assets/fonts/manrope-600.ttf") format("truetype");
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Manrope";
-  src: url("assets/fonts/manrope-700.ttf") format("truetype");
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-}
+/* Font weight 600 consolidated into 800 for performance */
+/* Font weight 700 consolidated into 800 for performance */
 
 @font-face {
   font-family: "Manrope";
@@ -201,6 +181,8 @@ p {
 
 .section {
   padding-block: var(--section-space);
+  content-visibility: auto;
+  contain-intrinsic-size: auto 800px;
 }
 
 .visually-hidden {
@@ -470,7 +452,7 @@ p {
 .brand-copy span {
   color: rgba(255, 255, 255, 0.64);
   font-size: 0.61rem;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: 0.075em;
 }
 
@@ -487,7 +469,7 @@ p {
   padding-block: 0.82rem;
   color: rgba(255, 255, 255, 0.78);
   font-size: 0.88rem;
-  font-weight: 700;
+  font-weight: 800;
   text-decoration: none;
 }
 
@@ -945,7 +927,7 @@ p {
 .booking-split span {
   color: rgba(255, 255, 255, 0.48);
   font-size: 0.62rem;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .booking-body strong,
@@ -1050,7 +1032,7 @@ p {
   gap: 0.45rem;
   color: rgba(255, 255, 255, 0.68);
   font-size: 0.71rem;
-  font-weight: 700;
+  font-weight: 800;
   white-space: nowrap;
 }
 
@@ -2093,7 +2075,7 @@ p {
 .price-state > span {
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.7rem;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .price-state > strong {
@@ -2450,6 +2432,35 @@ p {
   flex-basis: 100%;
 }
 
+.founder-social {
+  flex-basis: 100%;
+  margin: 0;
+}
+
+.founder-social a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 44px;
+  padding: 0.5rem 0.75rem 0.5rem 0;
+  color: var(--blue-link);
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.founder-social a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.founder-social svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+  stroke: none;
+}
+
 .founder-contact > p a {
   color: var(--blue-link);
 }
@@ -2692,7 +2703,7 @@ p {
   padding-left: 0.45rem;
   color: var(--ink-700);
   font-size: 0.8rem;
-  font-weight: 700;
+  font-weight: 800;
   overflow-wrap: anywhere;
 }
 
