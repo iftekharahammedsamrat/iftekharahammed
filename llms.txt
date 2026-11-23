@@ -1,0 +1,29 @@
+# Iftekhar Ahammed — AI Reception for UK Plumbing Firms
+
+> A managed AI voice receptionist service for small UK plumbing and heating firms. It answers incoming calls in UK English, captures job details, explains agreed charges and books suitable work to the firm's own rules.
+
+Last updated: 23 November 2026
+
+## Key pages
+
+- [Home](https://iftekharahammedsamrat.com/): Service overview, working demo, safety boundaries, pilot details and FAQ.
+- [Privacy](https://iftekharahammedsamrat.com/privacy.html): Data handling, hosting, outreach and call-data boundaries.
+- [Terms](https://iftekharahammedsamrat.com/terms.html): Demo limits, client responsibilities and service terms.
+
+## Service facts
+
+- Provider: Iftekhar Ahammed Samrat, trading as Iftekhar Ahammed.
+- Audience: small UK plumbing and heating firms.
+- What it does: answers calls, captures job details, explains configured charges, applies service-area and safety rules, and books suitable appointments.
+- What it does not do: guarantee leads, bookings, revenue or cost savings; replace emergency services or qualified professional advice; or process customer calls without an agreed client-specific data schedule.
+- Pricing: no fixed public price. The monthly fee, included usage, setup and extra-usage rate are confirmed in writing before a pilot starts.
+- Demo: SwiftPipe Plumbing & Heating is a fictional firm used to demonstrate a working call flow.
+
+## Contact
+
+- Email: iftekhar@iftekharahammedsamrat.com
+- WhatsApp: +880 1572 939017
+
+## Preferred citation
+
+If you cite this service, use: "Iftekhar Ahammed — AI Reception for UK Plumbing Firms" — https://iftekharahammedsamrat.com/

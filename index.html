@@ -10,6 +10,7 @@
     />
     <meta name="theme-color" content="#071A2B" />
     <meta name="color-scheme" content="light" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
     <link rel="canonical" href="https://iftekharahammedsamrat.com/" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="en_GB" />
@@ -32,20 +33,139 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Service",
-        "name": "AI Voice Receptionist for UK Plumbing and Heating Firms",
-        "description": "A managed AI call-answering, job-qualification and diary-booking service configured for small UK plumbing and heating firms.",
-        "url": "https://iftekharahammedsamrat.com/",
-        "areaServed": {
-          "@type": "Country",
-          "name": "United Kingdom"
-        },
-        "provider": {
-          "@type": "Person",
-          "name": "Iftekhar Ahammed Samrat",
-          "url": "https://iftekharahammedsamrat.com/"
-        },
-        "serviceType": "AI voice receptionist configuration and support"
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://iftekharahammedsamrat.com/#iftekhar",
+            "name": "Iftekhar Ahammed Samrat",
+            "alternateName": "Iftekhar Ahammed",
+            "url": "https://iftekharahammedsamrat.com/",
+            "image": "https://iftekharahammedsamrat.com/assets/iftekhar-founder.jpg",
+            "jobTitle": "Founder",
+            "email": "iftekhar@iftekharahammedsamrat.com",
+            "sameAs": ["https://github.com/iftekharahammedsamrat"],
+            "knowsAbout": [
+              "AI voice receptionists",
+              "Call answering and job qualification",
+              "Appointment booking",
+              "UK plumbing and heating firms"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://iftekharahammedsamrat.com/#website",
+            "name": "Iftekhar Ahammed — AI Reception for UK Plumbing Firms",
+            "url": "https://iftekharahammedsamrat.com/",
+            "inLanguage": "en-GB",
+            "publisher": { "@id": "https://iftekharahammedsamrat.com/#iftekhar" }
+          },
+          {
+            "@type": "Service",
+            "@id": "https://iftekharahammedsamrat.com/#service",
+            "name": "AI Voice Receptionist for UK Plumbing and Heating Firms",
+            "description": "A managed AI call-answering, job-qualification and diary-booking service configured for small UK plumbing and heating firms.",
+            "url": "https://iftekharahammedsamrat.com/",
+            "serviceType": "AI voice receptionist configuration and support",
+            "areaServed": {
+              "@type": "Country",
+              "name": "United Kingdom"
+            },
+            "audience": {
+              "@type": "BusinessAudience",
+              "name": "Small UK plumbing and heating firms"
+            },
+            "provider": { "@id": "https://iftekharahammedsamrat.com/#iftekhar" }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://iftekharahammedsamrat.com/#faq",
+            "url": "https://iftekharahammedsamrat.com/",
+            "isPartOf": { "@id": "https://iftekharahammedsamrat.com/#website" },
+            "about": { "@id": "https://iftekharahammedsamrat.com/#service" },
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "“My customers want to speak to me.”",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The receptionist handles the first conversation and sends you the right details. You decide how your firm follows up and which calls should still reach a person."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "“What if it sounds robotic?”",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Do not take a copywriter’s word for it. Hear the UK-English demo, then test the configured version with the phrases and scenarios your customers actually use."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "“What if it books the wrong thing?”",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Services, prices, postcode areas, availability and booking windows are explicit rules. The system is not instructed to turn every call into an appointment."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "“What happens on a gas-emergency call?”",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A configured safety trigger stops the normal booking route and follows the agreed emergency flow. The demo proves the boundary; it does not replace official emergency guidance."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "“I am already busy enough.”",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The goal is not to fill the diary indiscriminately. It is to protect suitable calls, qualify them properly and reduce the repetitive administration around work you already receive."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "“I already use WhatsApp.”",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Keep WhatsApp for photos, updates and follow-up. The receptionist covers the incoming calls you cannot answer and sends the useful details into the agreed workflow."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "“I do not want another system to manage.”",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The service is configured with you, connected to the agreed diary and tested before launch. The management process and support boundaries are written into the pilot."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "“Why should I trust a new provider?”",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Start with evidence, not a promise: a real founder, a working fictional-company demo, visible process, documented limits and no invented testimonials or client results."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "“How do I judge whether it costs too much?”",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Compare the transparent monthly cost with your own gross profit from one suitable job and the phone administration it removes. That is a value check—not a guaranteed return."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "“Why is there no cheap headline price?”",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A fair price depends on call volume, included usage, setup and support. Those numbers should be explicit—not hidden behind a low entry price that does not cover the workflow shown here."
+                }
+              }
+            ]
+          }
+        ]
       }
     </script>
   </head>
