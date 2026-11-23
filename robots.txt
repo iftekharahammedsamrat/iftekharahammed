@@ -32,4 +32,4 @@ Allow: /
 User-agent: meta-externalagent
 Allow: /
 
-Sitemap: https://iftekharahammedsamrat.com/sitemap.xml
+Sitemap: https://www.iftekharahammedsamrat.com/sitemap.xml

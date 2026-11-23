@@ -6,9 +6,9 @@ Last updated: 23 November 2026
 
 ## Key pages
 
-- [Home](https://iftekharahammedsamrat.com/): Service overview, working demo, safety boundaries, pilot details and FAQ.
-- [Privacy](https://iftekharahammedsamrat.com/privacy.html): Data handling, hosting, outreach and call-data boundaries.
-- [Terms](https://iftekharahammedsamrat.com/terms.html): Demo limits, client responsibilities and service terms.
+- [Home](https://www.iftekharahammedsamrat.com/): Service overview, working demo, safety boundaries, pilot details and FAQ.
+- [Privacy](https://www.iftekharahammedsamrat.com/privacy.html): Data handling, hosting, outreach and call-data boundaries.
+- [Terms](https://www.iftekharahammedsamrat.com/terms.html): Demo limits, client responsibilities and service terms.
 
 ## Service facts
 
@@ -26,4 +26,4 @@ Last updated: 23 November 2026
 
 ## Preferred citation
 
-If you cite this service, use: "Iftekhar Ahammed — AI Reception for UK Plumbing Firms" — https://iftekharahammedsamrat.com/
+If you cite this service, use: "Iftekhar Ahammed — AI Reception for UK Plumbing Firms" — https://www.iftekharahammedsamrat.com/
