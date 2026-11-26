@@ -2,7 +2,7 @@
 
 Trust-first, demo-led sales website for an AI voice receptionist aimed at UK plumbing and heating firms with roughly 2–5 engineers.
 
-Production domain: `https://iftekharahammedsamrat.com`
+Production domain: `https://www.iftekharahammedsamrat.com`
 
 Public brand: **Iftekhar Ahammed**  
 Service descriptor: **AI Reception for UK Plumbing Firms**  
@@ -25,6 +25,8 @@ No HTML, CSS, JavaScript, page structure or copy was taken from the earlier webs
 - `site-config.js` — public WhatsApp/email settings
 - `privacy.html` — website, outreach and service data boundaries
 - `terms.html` — honest demo, safety, pricing and performance limits
+- `blog/index.html` — guide index
+- `blog/ai-receptionist-for-uk-plumbing-firms-how-it-works.html` — first practical guide
 - `favicon.svg` — local brand mark
 - `assets/` — founder portrait, demo video, poster and local Manrope font files
 - LinkedIn profile link in founder section

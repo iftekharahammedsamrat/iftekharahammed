@@ -2,11 +2,13 @@
 
 > A managed AI voice receptionist service for small UK plumbing and heating firms. It answers incoming calls in UK English, captures job details, explains agreed charges and books suitable work to the firm's own rules.
 
-Last updated: 23 November 2026
+Last updated: 26 November 2026
 
 ## Key pages
 
 - [Home](https://www.iftekharahammedsamrat.com/): Service overview, working demo, safety boundaries, pilot details and FAQ.
+- [Blog](https://www.iftekharahammedsamrat.com/blog/): Practical guides for UK plumbing and heating firms.
+- [AI receptionist for UK plumbing firms: how it works](https://www.iftekharahammedsamrat.com/blog/ai-receptionist-for-uk-plumbing-firms-how-it-works.html): The call flow, safety rules, integrations, pricing model and data-protection questions.
 - [Privacy](https://www.iftekharahammedsamrat.com/privacy.html): Data handling, hosting, outreach and call-data boundaries.
 - [Terms](https://www.iftekharahammedsamrat.com/terms.html): Demo limits, client responsibilities and service terms.
 
